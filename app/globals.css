@@ -1,8 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,14 +15,62 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #fff;
+    
 }
+
+
+@supports (-webkit-text-stroke: 0.5px black) {
+  .second-heading {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #fff;
+    
+  }
+}
+@supports (-webkit-text-stroke: 0.5px black) {
+  .blue-heading {
+    -webkit-text-stroke: 1px #3087C8;
+    -webkit-text-fill-color: #fff;
+
+    
+    
+  }
+}
+/* hero button */
+.active-btn {
+  scale: 1.2;
+}
+.active-btn2 {
+  background-color: #3087C8;
+  color: #fff;
+}
+
+/* marquee styling */
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 99.9%;
+  height: 70px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #3087C8;
+  rotate: 2.7deg;
+  
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.track > h1 {
+  margin: 8px 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+
