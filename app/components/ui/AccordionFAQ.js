@@ -21,8 +21,8 @@ const AccordionFAQ = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4} className='text-gray text-lg font-light'>
-    At Ignytes Digital, we excel at unlocking the full potential of advanced technology to craft bespoke solutions for your business. Our expertise extends across a spectrum of services, ranging from website development and mobile applications to strategic social media campaigns and captivating logo design. 
-    We don't just deliver codes and designs; we're the architects of your digital success story.
+    Our specialty at Ignytes Digital is utilizing advanced technology to its fullest to create custom solutions for your company. Our services cover a wide range of areas, from developing mobile applications and websites to creating compelling logos and clever social media campaigns.
+     We are the designers and coders that build your digital success story.
     </AccordionPanel>
   </AccordionItem>
   

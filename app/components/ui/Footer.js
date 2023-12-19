@@ -34,7 +34,7 @@ const Footer = () => {
                 <div>
                     <h3 className='text-xl max-sm:text-lg font-bold mb-8'>Social Media</h3>
                     <ul className='flex flex-col gap-6'>
-                        <li className='hover:text-light-blue'><Link href="/">Fcebook</Link> </li>
+                        <li className='hover:text-light-blue'><Link href="/">Facebook</Link> </li>
                         <li className='hover:text-light-blue'><Link href="/">Twitter</Link></li>
                         <li className='hover:text-light-blue'><Link href="/">Linkedin</Link></li>
                     </ul>
@@ -45,8 +45,8 @@ const Footer = () => {
             </div>
             <div>
                     <h1 className='text-2xl font-bold mb-10'>Weekly Newsletter</h1>
-                    <p className='mb-10'>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
-                         conse iscing elit. Ut elit telctus nec ullamcorper matti</p>
+                    <p className='mb-10'>With our special weekly newsletter, which is filled with updates, trends, and industry insights, stay ahead of the game. 
+                    Sign up now to receive informative content directly in your inbox.</p>
                     <form>
                         <input placeholder='Your Email' className='bg-gray p-4 mr-4'/>
                         <button className='bg-light-blue text-white p-4'>Send</button>

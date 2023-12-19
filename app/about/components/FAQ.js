@@ -13,9 +13,8 @@ const FAQ = () => {
             <h1 className='text-light-blue' >HELP & FAQ</h1>
             <h1 className='blue-heading text-[#fff] ml-0 sm:ml-20 mt-4'>CENTERS</h1>
             </div>
-            <p className='text-gray text-lg font-light mt-4 mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing 
-            elit sed do eiusmod tempor incididunt ut labore et dolore 
-            magna aliqua utenim ad minim veniam quis.</p>
+            <p className='text-gray text-lg font-light mt-4 mb-10'>Go through our extensive HELP & FAQ centers to find answers quickly. For personalized help and committed support, 
+            please contact us if your question isn't answered.</p>
             {/* <AnimatedButton redirect="/portfolio" content="more work"/> */}
 
             <Link href="/contact" className='px-8 py-4 mt-10 bg-light-blue text-white font-semibold  uppercase'>contact us</Link>
