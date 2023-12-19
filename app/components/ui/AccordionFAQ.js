@@ -36,7 +36,7 @@ const AccordionFAQ = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4} className='text-gray text-lg font-light'>
-    The project's complexity and scope determine how long it will take to complete the project. After the initial inspection, our team works closely with clients to understand their requirements and deliver estimates. Timelines for more complex solutions can take many months, 
+    The project&apos;s complexity and scope determine how long it will take to complete the project. After the initial inspection, our team works closely with clients to understand their requirements and deliver estimates. Timelines for more complex solutions can take many months, 
     while those for shorter initiatives can take only a few weeks.
     </AccordionPanel>
   </AccordionItem>

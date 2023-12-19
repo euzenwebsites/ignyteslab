@@ -21,7 +21,7 @@ const TestemonialSingle = (props) => {
         <p className="font-light ">{props.designation}</p>
     </div>
     </div>
-    <p className='text-[#6A6A6A] text-2xl font-normal'><span>"</span>{props.description}<span>"</span></p>
+    <p className='text-[#6A6A6A] text-2xl font-normal'><span>&apos;</span>{props.description}<span>&apos;</span></p>
 </div>
   )
 }

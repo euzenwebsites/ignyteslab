@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from "../../../public/image/image1.svg"
-import arrowIcon from "../../../public/icon/arrow.png"
+import Image1 from '../../../public/image/image1.svg'
+import arrowIcon from '../../../public/icon/arrow.png'
 const HeadingSwitcher1 = () => {
   return (
     <div className='ml-20 max-sm:ml-0 max-sm:p-20   relative'>
 
         <div className='text-6xl font-bold mb-2 ml-20 max-sm:ml-0'>
-            <h1  >EMPOWER</h1>
+            <h1>EMPOWER</h1>
             <Image src={Image1} alt='image' className='mt-4'/>
         </div>
 

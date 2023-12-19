@@ -21,7 +21,7 @@ const About = () => {
                         <div className='p-8 bg-[#D9D9D9] rounded-full '><Image src={playBtn} /></div>
                         <h3 className='pl-4 font-bold text-[#6A6A6A]'>Video Introduction</h3>
                     </div>
-                    <p className='text-[#6A6A6A] text-lg font-light'>Take a close look at growth, as Ignytes Lab's technology makes possibilities a reality.</p>
+                    <p className='text-[#6A6A6A] text-lg font-light'>Take a close look at growth, as Ignytes Lab&apos;s technology makes possibilities a reality.</p>
                     <Link href="/" className='text-[#6A6A6A] text-xl  underline decoration-light-blue hover:decoration-dark-blue underline-offset-8 '>Learn More</Link>
                 </div>
                 <div className=' flex flex-col'>
@@ -35,7 +35,7 @@ const About = () => {
                     </div>
                     <div className='grid grid-cols-3 max-sm:col-span-2 max-sm:col-span-2 gap-4 border-b-2 border-light-blue text-[#6A6A6A] pb-8 pt-8'>
                         <h1 className='text-3xl font-bold max-sm:col-span-2 '>Our Mission</h1>
-                        <p className='col-span-2 text-lg font-normal italic'>Here at Ignytes Lab, it's evident that our goal is to spur progress with the latest software.</p>
+                        <p className='col-span-2 text-lg font-normal italic'>Here at Ignytes Lab, it&apos;s evident that our goal is to spur progress with the latest software.</p>
                     </div>
                     
                 </div>
