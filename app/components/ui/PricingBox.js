@@ -20,11 +20,11 @@ const PricingBox = (props) => {
             <h3 className='text-2xl '>{props.package}</h3>
             <h1 className='text-5xl text-white mt-4 '>{props.price}</h1>
       </div>
-      <div className='text-base leading-8 mt-6'>
-      <ul className="overflow-scroll h-64">
-                <li>{props.item1}</li>
+      <div className='text-xs leading-8 mt-6'>
+      <ul className="overflow-y-scroll h-72 divide-y ">
+                <li className='underline-offset-8'>{props.item1}</li>
                 <li >{props.item2}</li>
-                <li >{props.item3}</li>
+                <li >{props.item3}</li>    
                 <li >{props.item4}</li>
                 <li >{props.item5}</li>
                 <li >{props.item6}</li>

@@ -17,8 +17,22 @@
   padding-top: 10px;
 }
 .menu-container {
-  padding-top: 25px;
+  display: flex;
+
 }
+.menu-container li{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 8px;
+}
+.menu-container li:active{
+  background-color: #3087C8;
+}
+.menu-container li:hover{
+  background-color: #3087C8;
+}
+
 .get-btn{
   background-color: #3087C8;
   color: #ffff;

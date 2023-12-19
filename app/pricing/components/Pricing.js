@@ -36,7 +36,7 @@ const PricingTestimonials = () => {
 <div className="w-[80%]">
       <div className='flex flex-col items-center gap-8 text-6xl max-sm:text-4xl font-bold pb-10 max-sm:text-center '>
        <h1 className='text-[#000]' >SPECIAL<span className='second-heading  pl-4'>PRICE & PLAN</span></h1>
-      <p className='text-[#6A6A6A] text-lg font-light '>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus ullamcorper.</p>
+      {/* <p className='text-[#6A6A6A] text-lg font-light '>Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus ullamcorper.</p> */}
     </div>
 
     <div className='flex flex-row max-sm:flex-col gap-8'>

@@ -4,7 +4,7 @@ import portImg1 from "../../../public/image/portimg1.jpg"
 const PortfolioBox = (props) => {
   return (
     <div className='w-[100%]'>
-      <Image src={portImg1}/>
+      <Image src={props.portimg}/>
       <div className='flex flex-row max-sm:flex-col mt-4'>
         <div>
             <h1 className='font-bold  text-2xl'>{props.heading}</h1>

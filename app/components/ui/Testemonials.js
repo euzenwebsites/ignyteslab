@@ -8,7 +8,7 @@ import '@splidejs/react-splide/css';
 import '@splidejs/react-splide/css/core';
 import TestemonialSingle from "./TestemonialSingle"
 const Testemonials = () => {
-  return (
+  return ( 
     <>
       <Splide 
       className="my-carousel" aria-label="My Favorite Images"

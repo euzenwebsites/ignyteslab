@@ -3,7 +3,11 @@ import React from 'react'
 import PortfolioBox from './ui/PortfolioBox'
 import CTA from './ui/CTA'
 import AnimatedButton from './animations/AnimatedButton'
-// import PortfolioImg1 from "../../public/icon/portimg1.png"
+import PortSMM from '../../public/image/portimg1.jpg'
+import PortLogo from '../../public/image/portimg2.jpg'
+import PortWeb from '../../public/image/portimgweb.jpg'
+import PortBrand from '../../public/image/portimg3.jpg'
+import PortGraphics from '../../public/image/portimggraphics.jpg'
 
 const Portfolio = () => {
   return (
@@ -19,21 +23,27 @@ const Portfolio = () => {
         </div>
         <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-10'>
             <PortfolioBox heading="WEB DESIGN AND DEVELOPMENT" category="development" 
+            portimg={PortWeb}
             description="Converting ideas into captivating, practical digital realities via development and design."/>
 
             <PortfolioBox heading="SEO" category="optimization" 
+            portimg={PortBrand}
             description="Increasing visibility and driving growth through SEO tactics that strengthen your web presence."/>
 
             <PortfolioBox heading="BRANDING" category="branding" 
+            portimg={PortBrand}
             description="Creating brand identities that feel genuine and make an impact on marketplaces worldwide."/>
 
             <PortfolioBox heading="GRAPHIC DESIGN" category="designing" 
+            portimg={PortGraphics}
             description="Bringing ideas to life with visually striking and powerful graphic design solutions."/>
 
             <PortfolioBox heading="APP DEVELOPMENT" category="development" 
+            portimg={PortBrand}
             description="Providing smooth, modern mobile solutions to businesses that increase customer engagement."/>
 
             <PortfolioBox heading="SOCIAL MEDIA MARKETING" category="promotion" 
+            portimg={PortSMM}
             description="Growing brands with focused tactics and developing connections on various social media platforms."/>
         </div>
     </div>

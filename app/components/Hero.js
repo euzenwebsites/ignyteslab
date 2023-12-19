@@ -32,9 +32,9 @@ const Hero = () => {
 
           <div className='w-[10%] h-[100%] absolute right-0 max-sm:bottom-0 flex flex-col max-sm:flex-row items-center gap-6 pt-36 z-500'>
                 <div className='w-[2px] h-[35%] bg-[#012D56] opacity-75'></div>
-                <Link href="https://www.facebook.com/profile.php?id=61552007724555"><Image src={facebookIcon} alt='facebook'/></Link>
-                <Link href="https://www.linkedin.com/company/ignytes-lab"><Image src={linkedinIcon} alt='instagram'/></Link>
-                <Link href="https://twitter.com/IgnytesL13724"><Image src={twitterIcon} alt='twitter'/></Link>
+                <Link href="https://www.facebook.com/profile.php?id=61552007724555" target='_blank'><Image src={facebookIcon} alt='facebook'/></Link>
+                <Link href="https://www.linkedin.com/company/ignytes-lab" target='_blank'><Image src={linkedinIcon} alt='instagram'/></Link>
+                <Link href="https://twitter.com/IgnytesL13724" target='_blank'><Image src={twitterIcon} alt='twitter'/></Link>
 
           </div>
 
