@@ -3,7 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import Logo from "../../../public/icon/logo.svg"
 import Ignytes from '../animations/Ignytes'
-
+import facebookIcon from "../../../public/icon/facebook.svg"
+import linkedinIcon from "../../../public/icon/linkedin.png"
+import twitterIcon from "../../../public/icon/twitter.svg"
 const Footer = () => {
   return (
     <section className='h-full  w-[100%] flex justify-center mt-36 '>
@@ -34,9 +36,21 @@ const Footer = () => {
                 <div>
                     <h3 className='text-xl max-sm:text-lg font-bold mb-8'>Social Media</h3>
                     <ul className='flex flex-col gap-6'>
-                        <li className='hover:text-light-blue'><Link href="/">Facebook</Link> </li>
-                        <li className='hover:text-light-blue'><Link href="/">Twitter</Link></li>
-                        <li className='hover:text-light-blue'><Link href="/">Linkedin</Link></li>
+                        <div className='flex flex-row gap-2 hover:text-light-blue'>
+                        <Image src={facebookIcon} alt='facebook' width={20} />
+                        <Link href="https://www.facebook.com/profile.php?id=61552007724555" target='_blank'>Facebook</Link>
+                        </div>
+
+                        <div className='flex flex-row gap-2 hover:text-light-blue'>
+                        <Image src={linkedinIcon} alt='Linkedin'  width={20} />
+                        <Link href="https://www.linkedin.com/company/ignytes-lab" target='_blank'>Linkedin</Link>
+                         </div>
+                        
+                        <div className='flex flex-row gap-2 hover:text-light-blue'>
+                        <Image src={twitterIcon} alt='twitter'width={20}/>
+                        <Link href="https://twitter.com/IgnytesL13724" target='_blank'>Twitter</Link>
+                        </div>
+                    
                     </ul>
                 </div>
                 <div>
@@ -55,7 +69,7 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-row max-sm:flex-col justify-between border-t-2 border-light-blue mt-10 pt-4'>
-            <Ignytes/>
+            <Link href="/"><Ignytes/></Link>
             <p className='opacit-50'>© Copyright 2023 IGNYTESLAB. All rights reserved</p>
         </div>
     </div>
