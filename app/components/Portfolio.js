@@ -3,10 +3,12 @@ import React from 'react'
 import PortfolioBox from './ui/PortfolioBox'
 import CTA from './ui/CTA'
 import AnimatedButton from './animations/AnimatedButton'
-import PortSMM from '../../public/image/portimg1.jpg'
-import PortLogo from '../../public/image/portimg2.jpg'
-import PortWeb from '../../public/image/portimgweb.jpg'
-import PortBrand from '../../public/image/portimg3.jpg'
+import PortSMM from '../../public/image/socail-media.jpg'
+import PortWeb from '../../public/image/website.jpg'
+import PortBrand from '../../public/image/branding.jpg'
+import PortSEO from '../../public/image/seo.jpg'
+import PortApp from '../../public/image/app.jpg'
+
 import PortGraphics from '../../public/image/portimggraphics.jpg'
 
 const Portfolio = () => {
@@ -27,7 +29,7 @@ const Portfolio = () => {
             description="Converting ideas into captivating, practical digital realities via development and design."/>
 
             <PortfolioBox heading="SEO" category="optimization" 
-            portimg={PortBrand}
+            portimg={PortSEO}
             description="Increasing visibility and driving growth through SEO tactics that strengthen your web presence."/>
 
             <PortfolioBox heading="BRANDING" category="branding" 
@@ -39,7 +41,7 @@ const Portfolio = () => {
             description="Bringing ideas to life with visually striking and powerful graphic design solutions."/>
 
             <PortfolioBox heading="APP DEVELOPMENT" category="development" 
-            portimg={PortBrand}
+            portimg={PortApp}
             description="Providing smooth, modern mobile solutions to businesses that increase customer engagement."/>
 
             <PortfolioBox heading="SOCIAL MEDIA MARKETING" category="promotion" 
