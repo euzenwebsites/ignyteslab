@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <section className='h-full  w-[100%] flex justify-center mt-36 mb-36 '>
     <div className='w-[80%] flex flex-row max-sm:flex-col items-start gap-20 '>
-        <div className='sticky top-20' >
+        <div className='sm:sticky top-20' >
             <div className='text-6xl max-sm:text-4xl font-bold uppercase max-sm:text-center'>
             <h1 className='text-light-blue' >EXPLORE OUR </h1>
             <h1 className='blue-heading text-[#fff] ml-20 max-sm:ml-0 mt-4'>EXPERT SERVICES</h1>

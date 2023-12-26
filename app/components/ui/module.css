@@ -3,10 +3,10 @@
   width: 100%;
   height: 20%;
   background-color: #012D56;
-}
+} 
 .container{
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
   justify-content: space-between;
   gap: 10px;
  
@@ -108,6 +108,14 @@ a {
   align-items: center;
   justify-content: center;
   }
+  a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 
 
@@ -123,7 +131,6 @@ a {
 
 .navbar002 {
   width: 100%;
-  height: 20%;
   position: absolute;
   top: 100px;
   right: 0;
@@ -136,11 +143,12 @@ a {
 } 
 
 .navList {
-  padding: 50px 70px 100px 70px;
+  padding: 40px ;
 }
 
 .nav-item {
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 800;
   list-style: none;
   text-align: center;
   color: white;

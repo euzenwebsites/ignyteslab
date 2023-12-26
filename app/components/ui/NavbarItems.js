@@ -54,6 +54,6 @@ const NavbarItems = ({ isToggled }) => {
       ))}
     </motion.ul>
   );
-};
+}; 
 
 export default NavbarItems;

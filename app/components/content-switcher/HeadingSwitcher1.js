@@ -6,7 +6,7 @@ const HeadingSwitcher1 = () => {
   return (
     <div className='ml-20 max-sm:ml-0 max-sm:p-20   relative'>
 
-        <div className='text-6xl font-bold mb-2 ml-20 max-sm:ml-0'>
+        <div className='text-5xl sm:text-6xl font-bold mb-2 ml-20 max-sm:ml-0'>
             <h1>EMPOWER</h1>
             <Image src={Image1} alt='image' className='mt-4'/>
         </div>
@@ -19,7 +19,7 @@ const HeadingSwitcher1 = () => {
         </div>
 
         <div className='ml-72 max-sm:ml-0 w-[50%] max-sm:w-full'>
-            <h1 className='text-8xl font-bold second-heading'>DESIGN</h1>
+            <h1 className='text-6xl sm:text-8xl font-bold second-heading'>DESIGN</h1>
             <p className='text-[#6A6A6A] opacity-80 italic text-lg mt-8'>With the help of our apps, websites, and designs, discover countless growth prospects.</p>
         </div>
 

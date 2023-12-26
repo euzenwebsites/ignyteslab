@@ -79,7 +79,7 @@ const Modal = ({ isOpen, closeModal }) => {
                   {...register('phone', { required: 'This field is required' })}
                   type="text"
                   placeholder="Phone No:"
-                  className="form-entry"
+                  className="form-entry"  
                 />
                 {errors.email && <span>{errors.email.message}</span>}
 
