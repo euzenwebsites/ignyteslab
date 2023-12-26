@@ -38,7 +38,7 @@ const Form = () => {
       <div className=" text-base grid grid-cols-2 max-sm:grid-cols-1 gap-6">
         
           <input
-            {...register("name", { required: "This field is required" })}
+            {...register("name", { required: "This field is required" })} 
             type="text"
             placeholder="Your Name"
             className=" py-6 border-b-2 border-blue-300 opacity-80 text-black  outline-0"
