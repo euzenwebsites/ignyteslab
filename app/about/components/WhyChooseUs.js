@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
         <Feature number="03." heading="Reliability" description="Trustworthy and dependable when it comes to keeping promises and deadlines."/>
         <Feature number="04." heading="Results-Oriented" description="A proven track record of meeting and surpassing customer goals."/>
         <Feature number="05." heading="Transparency" description="Clear and honest communication throughout services or projects."/>
-        <Feature number="06." heading="Customer Servic" description="Outstanding customer service and a commitment to client satisfaction."/>
+        <Feature number="06." heading="Customer Service" description="Outstanding customer service and a commitment to client satisfaction."/>
     </div>
     </div>
 
